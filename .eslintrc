@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/essential"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaFeatures": {
+        "modules": true
+    }
+  },
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "no-var": "error",
+    "semi": ["error", "never"]
+  }
+}

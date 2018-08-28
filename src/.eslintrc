@@ -1,0 +1,6 @@
+{
+  "globals": {
+    "Buffer": true,
+    "web3": true
+  }
+}
