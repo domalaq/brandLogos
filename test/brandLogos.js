@@ -1,6 +1,8 @@
 /* eslint-env mocha */
 /* global artifacts, contract, assert */
 
+/* This test mainly checks if users can do actions that intended to be done. Also there are checks if one role can do another role's actions */
+
 const BrandLogos = artifacts.require('BrandLogos')
 
 async function tryCatch (promise) {

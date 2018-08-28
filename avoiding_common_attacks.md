@@ -1,0 +1,1 @@
+Safety checks made by checking action requirements before actually changing state of contract.
